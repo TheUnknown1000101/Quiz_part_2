@@ -100,7 +100,7 @@ function buttonFunction() {
 		textsum = textsum + 1;
 		document.getElementsByClassName("paragraph")[3].innerHTML = "Input Questions"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ textsum.toString() +"/2"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "(The colour "+text1+" is quite an interesting choice.)"+"&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+" The first question is a freebie question, but the answer to the following question is green.";
 	}
-	if (checkbox3) {
+	if ((checkbox3)&& (checkbox1 != true)&& (checkbox2 != true)&& (checkbox4 != true)) {
 		document.getElementsByClassName("paragraph")[4].innerHTML = "Which of these are the background colour of this page?"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "1/1"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+" The correct answer is Blue.";
 	} else {
 		document.getElementsByClassName("paragraph")[4].innerHTML = "Which of these are the background colour of this page?"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "0/1"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+ "&nbsp;"+" The correct answer is Blue.";
