@@ -63,7 +63,7 @@ function buttonFunction() {
 	if (text2 == ("green") || text2 == ("Green")) {
 		sum = sum +1;
 	}
-	if (checkbox3){
+	if ((checkbox3)&& (checkbox1 != true)&& (checkbox2 != true)&& (checkbox4 != true)) {
 		sum = sum +1;
 	}
 	if (radio1) {
@@ -121,7 +121,6 @@ function buttonFunction() {
 
 
 }
-
 
 
 
